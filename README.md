@@ -1,2 +1,4 @@
-# nguyen-wdd-130
-This is the final project for WDD 130 @ BYUI
+# WDD 130 Final Project
+Owner: [John Nguyen]
+
+Semester: [Winter 2021]
