@@ -117,6 +117,8 @@ main {
     text-align: center;
 }
 
+/* HOME PAGE CSS */
+
 .homepage-container {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -135,6 +137,8 @@ main {
     align-self: center;
 }
 
+/* CONTACT US CSS */
+
 .contactus-container {
     display: grid;
     grid-template-columns: 3fr 1fr 3fr;
@@ -144,6 +148,8 @@ main {
 .form-container {
     grid-column-start: 2;
 }
+
+/* ABOUT US CSS */
 
 .about-container {
     display: grid;
@@ -168,6 +174,56 @@ main {
     grid-column-end: 3;
     margin: 50px;
 }
+
+/* FAQ CSS */
+
+.faq-container {
+    margin: 100px;
+
+}
+
+.question-container {
+    margin: 50px;
+}
+
+/* SERVICES CSS */
+
+table 
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+
+td ul li {
+    text-align: left;
+}
+
+
+
+/* WIREFRAMES CSS */
+
+.wireframes-container {
+    text-align: center;
+}
+
+.wireframes-section {
+    padding-top: 50px;
+
+}
+
+.wireframes-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: var(--alt-font-color);
+    border-width: 10px;
+    border-style: solid;
+}
+
+
+/* ====================== */
 
 footer {
     display: grid;
