@@ -60,7 +60,7 @@
                 please be patient as we are a small team and we will try our best!
         </div>
         <div class="contactus-container">
-            <form action="/action_page.php">
+            <form method="GET" action="contact-us.html" id="contact-form">
                 <div class="row">
                     <div class="col-25">
                         <label for="fname">Name</label>
@@ -86,9 +86,8 @@
                             style="height:200px"></textarea>
                     </div>
                 </div>
-                <div class="row">
-                    <input type="submit" value="Submit">
-                </div>
+                <input type="submit" value="Send Message" id="contact-form-submit"><br>
+                <div id="contact-form-message"></div>
             </form>
     </main>
     <footer>
